@@ -15,3 +15,10 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
+sed -i '$a src-git lienol https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+sed -i '$a src-git kenzo https://github.com/V2RaySSR/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/V2RaySSR/small' feeds.conf.default
+sed -i '$a src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' feeds.conf.default
+sed -i '$a src-git dockerman https://github.com/lisaac/luci-app-dockerman.git' feeds.conf.default
