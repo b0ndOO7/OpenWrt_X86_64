@@ -22,3 +22,5 @@ sed -i '$a src-git kenzo https://github.com/V2RaySSR/openwrt-packages' feeds.con
 sed -i '$a src-git small https://github.com/V2RaySSR/small' feeds.conf.default
 sed -i '$a src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' feeds.conf.default
 sed -i '$a src-git dockerman https://github.com/lisaac/luci-app-dockerman.git' feeds.conf.default
+sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash.git' feeds.conf.default
+sed -i '$a src-git OpenAppFilter https://github.com/destan19/OpenAppFilter.git' feeds.conf.default
