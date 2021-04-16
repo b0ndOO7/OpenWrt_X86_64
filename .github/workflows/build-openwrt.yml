@@ -68,6 +68,9 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
+    - name: Git pull
+      run: cd openwrt && git pull
+
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a
 
@@ -93,10 +96,10 @@ jobs:
       id: package
       run: |
         cd openwrt
-        make defconfig
-        make download -j8
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
+        make defconfig
+        make download -j8
 
     - name: Compile the firmware
       id: compile
