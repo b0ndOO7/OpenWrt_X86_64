@@ -11,7 +11,7 @@
 #
 
 # Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
@@ -24,6 +24,6 @@ sed -i '$a src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-them
 sed -i '$a src-git dockerman https://github.com/lisaac/luci-app-dockerman.git' feeds.conf.default
 sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash.git' feeds.conf.default
 #sed -i '$a src-git OpenAppFilter https://github.com/destan19/OpenAppFilter.git' feeds.conf.default
-
-sed -i '$a src-git src-git Xray https://github.com/yichya/openwrt-xray.git' feeds.conf.default
-sed -i '$a src-git src-git AppXray https://github.com/yichya/luci-app-xray.git' feeds.conf.default
+sed -i '$a src-git Clash https://github.com/xumng123/clash.git' feeds.conf.default
+sed -i '$a src-git Xray https://github.com/yichya/openwrt-xray.git' feeds.conf.default
+sed -i '$a src-git AppXray https://github.com/yichya/luci-app-xray.git' feeds.conf.default
